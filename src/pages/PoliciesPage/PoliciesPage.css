@@ -1,0 +1,22 @@
+.policies-text-area {
+  max-width: 750px;
+  margin: 1.625em auto;
+}
+
+#no-policy-paragraph {
+  font-size: 1.125rem;
+}
+
+@media (min-width: 415px) and (max-width: 1024px) {
+  .policies-text-area {
+    max-width: 100%;
+    padding: 0 3.125em;
+  }
+}
+
+@media (max-width: 414px) {
+  .policies-text-area {
+    max-width: 100%;
+    padding: 0 1em;
+  }
+}
