@@ -1,0 +1,24 @@
+.homepage-showcase {
+  width: 300px;
+  height: 76%;
+  background-color: #1877f2;
+  border-radius: 0.5em;
+  margin-top: 23px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("../../assets/images/me-vert.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 415px) and (max-width: 1024px) {
+  .homepage-showcase {
+    width: 55%;
+  }
+}
+
+@media (max-width: 414px) {
+  .homepage-showcase {
+    width: 93%;
+  }
+}
