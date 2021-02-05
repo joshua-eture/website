@@ -1,0 +1,38 @@
+.project-item {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  color: inherit;
+  padding: 0.5em 0.8125em;
+  width: auto;
+}
+
+.project-item-name {
+  letter-spacing: 0.00625em;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding-bottom: 0.3125em;
+  color: black;
+}
+
+.project-item-description {
+  letter-spacing: 0.01428571em;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #202124;
+}
+
+@media (min-width: 415px) and (max-width: 1024px) {
+  .project-item {
+    width: auto;
+  }
+}
+
+@media (max-width: 414px) {
+  .project-item {
+    width: auto;
+  }
+}
