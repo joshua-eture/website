@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { analytics } from "../../firebase";
 import "./Page.css";
 
 interface PageProps {
@@ -13,6 +14,7 @@ interface PageProps {
 const Page: React.FC<PageProps> = ({ children, options }) => {
   useEffect(() => {
     document.title = options.head.title;
+    analytics.logEvent("page_view", { page_title: options.head.title });
   }, []);
 
   return (
