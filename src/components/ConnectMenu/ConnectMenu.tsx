@@ -45,12 +45,12 @@ const ConnectMenu: React.FC<ConnectMenuProps> = ({ visible, shouldClose }) => {
           Instagram
         </a>
         <a
-          href="https://www.tiktok.com/@joshuaeture"
+          href="https://www.twitter.com/joshuaeture"
           target="_blank"
           role="button"
           className="connect-menu-option"
         >
-          TikTok
+          Twitter
         </a>
       </div>
       <div className="overlay" onClick={shouldClose} />
