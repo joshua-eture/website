@@ -45,6 +45,22 @@ const ConnectMenu: React.FC<ConnectMenuProps> = ({ visible, shouldClose }) => {
           Instagram
         </a>
         <a
+          href="https://www.snapchat.com/add/joshua-eture"
+          target="_blank"
+          role="button"
+          className="connect-menu-option"
+        >
+          Snapchat
+        </a>
+        <a
+          href="https://www.tiktok.com/@joshuaeture"
+          target="_blank"
+          role="button"
+          className="connect-menu-option"
+        >
+          TikTok
+        </a>
+        <a
           href="https://www.twitter.com/joshuaeture"
           target="_blank"
           role="button"
